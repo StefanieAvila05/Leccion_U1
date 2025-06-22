@@ -6,7 +6,7 @@ let ballX = canvas.width / 2;
 let ballY = canvas.height - 30;
 let ballDX = 2;
 let ballDY = -2;
-const ballRadius = 10;
+const ballRadius = 12;
 
 const paddleHeight = 10;
 const paddleWidth = 75;
