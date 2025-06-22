@@ -120,10 +120,11 @@ function resetGame() {
 }
 
 function showModal(message) {
-    document.getElementById("optionText").textContent = message;
+    document.getElementById("optionText").textContent = "Resultado: " + message;
     document.getElementById("scoreText").textContent = "Puntaje: " + score;
     document.getElementById("modal").style.display = "block";
 }
+
 
 function closeModal() {
     document.getElementById("modal").style.display = "none";
