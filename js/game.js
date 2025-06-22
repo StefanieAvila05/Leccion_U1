@@ -6,7 +6,7 @@ let ballX = canvas.width / 2;
 let ballY = canvas.height - 30;
 let ballDX = 2;
 let ballDY = -2;
-const ballRadius = 12;
+const ballRadius = 10;
 
 const paddleHeight = 10;
 const paddleWidth = 75;
@@ -120,7 +120,7 @@ function resetGame() {
 }
 
 function showModal(message) {
-    document.getElementById("optionText").textContent = "Resultado: " + message;
+    document.getElementById("optionText").textContent = "Resultado " + message;
     document.getElementById("scoreText").textContent = "Puntaje: " + score;
     document.getElementById("modal").style.display = "block";
 }
